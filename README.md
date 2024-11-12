@@ -1,6 +1,8 @@
 # resumo-do-lab
 Este repositório contém o resumo das lições aprendidas durante o desenvolvimento do lab na DIO
 
+## Definição de Conceitos de cloud
+
 - O que é cloud?
   Se trata de computação em nuvem que é a entrega de serviços de TI atravês da internet
   
@@ -14,7 +16,7 @@ Este repositório contém o resumo das lições aprendidas durante o desenvolvim
   - Iaas: Infra como serviço
   - Saas: Software como serviço
   - Paas: Plataforma com serviço
-  - 
+  
 - Responsabilidade compartilhada
     - Resposabilidade do provedor da nuvem
     - Responsabilidade do cliente
