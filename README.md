@@ -55,6 +55,26 @@ Os Serviços de Computação do Azure oferecem uma base flexível e confiável p
 - Azure Functions: com ele é possível executar código sob demanda sem precisar de servidores, ideal para automação e escalabilidade.
 - Serviços de Aplicativo: Simplificam a criação, hospedagem e gerenciamento de aplicativos web e APIs, com suporte a várias linguagens e alta disponibilidade.
 
+## Armazenamento do Azure
+
+- Contas de armazenamentos
+  - Fila
+  - Tabela
+  - Conteiner
+  - Compartilhamento de arquivos (SMB)
+ 
+- Migração para Azure
+  - Família DataBox
+    - Data Box Disk - 35TB
+    - Data Box - 80TB
+    - Data Box Heavy - 800TB
+    - Importação/Exportão de Job - a partir de 1TB
+  - Aplicativos web
+  - Banco de Dados (somente)
+  - Servidores, banco de dados e aplicativos web
+  - AzCopy (Terminal)
+  - Storage Explorer (Gráfico)
+ 
 
 
 
