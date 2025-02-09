@@ -74,8 +74,32 @@ Os Serviços de Computação do Azure oferecem uma base flexível e confiável p
   - Servidores, banco de dados e aplicativos web
   - AzCopy (Terminal)
   - Storage Explorer (Gráfico)
- 
 
 
+ ## Arquitetura e serviços do Azure
+
+- Microsoft Entra ID (antigo Azure active Directory) Usuários criados na nuvem não sincroniza com on-premises, mas o inverso funciona.
+
+- Autenticação - verifica se o usuário pode logar e acessar osa recursos
+- Autorização - depois de logado, o que o usuário tem permissão para fazer
+
+### Autenticação:
+
+- Logon único (SSO)
+- Gerenciamento de aplicativos.
+- Negócios para Negócios (B2B) - usuários externos (fornecedores ou parceiros) através de convite ou inscrição tem permissão para logar no ambiente, com suas devidas permissões
+- Negócios para Consumidores (B2C) - é autenticado através de uma assinatura Google, Facebbok...
+
+- Autenticação multifator - exige dois ou mais elementos para autenticação, o wur torna o acesso mais seguro
+
+- Acesso Condicional -  avalia não apenas se o usuário e senha (ou MFA) estão batendo, mas se há algo incomum no acesso do usuário, como: Local do IP, dispositivo, aplicativo, horário. Ajuda a tornar o ambiente mais seguro e detectar possíveis risco de acesso de pessoas não autorizadas
+
+- RBAC (acesso baseado em função) - permite um gerenciamento de acesso mais granular, liberando apenas o que o usuário pode utilizar
+
+- Política de Confiança Zero - não confiar em ninguém
+
+- Proteção completa (proteção em camadas) - Fornece vários níveis de proteção para dificultar a ação de agentes maliciosos, caso ocorra.
+
+### Microsoft Defender para Nuvem - é um serviço de monitoramento que fornece proteção contra ameaças nos datacenters do Azure GCP, AWS e locais de forma centralizada, fornecendo recomendações de segurança, identificação de ataques potenciais...
 
 
