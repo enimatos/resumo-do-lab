@@ -103,3 +103,22 @@ Os Serviços de Computação do Azure oferecem uma base flexível e confiável p
 ### Microsoft Defender para Nuvem - é um serviço de monitoramento que fornece proteção contra ameaças nos datacenters do Azure GCP, AWS e locais de forma centralizada, fornecendo recomendações de segurança, identificação de ataques potenciais...
 
 
+### Gerenciamento e Governança
+
+- Fatores que afetam os custos
+  - tipo de recurso
+  - consumo 
+  - manutenção
+  - área geográfica
+  - trafego de rede (todo trafico de saída ou dados trafegados entre recursos do Azure é cobrado)
+  - assinatura
+
+-  Azure Marketplace - mais de 10.000 aplicações e serviços de provedores terceiros para experimentar, comprar e provisionar, porém, em caso de algum evento ou incidente nesses recursos, o suporte é feito pelo fabricante, não o Azure.
+
+-  Calculadora de preços - utilizada para estimar os custos dos produtos Azure
+
+- Calculadora de custo total de propriedade (TCO) - utilizada para estimar economia dos custos dos produtos Azure antes de uma possível migração
+
+- Gerenciamento de Custos do Azure - possibilita a definição de orçamento, configuração de alarmes relacionados os valores estipulados como limite, extrair relatórios de cobrança...
+
+- Tags - é uma configuração não obrigatória de pares nome-valor, fornecem metadados aos recursos do Azure, organizando os recursos em taxonomia de maneira lógica, que ajuda a entender em um relatório de cobrança, quanto os recursos provisionados para uma determinada aplicação, departamento ou projeto estão custando.
